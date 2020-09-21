@@ -1,0 +1,78 @@
+
+.flexColumn{
+  display: $flex;
+  flex-direction: column;
+  text-align: center;
+}
+.start{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.center{
+  width: 85vw;
+  text-align: center;
+  padding-top: 5px;
+}
+.App-background{
+  width: 100vw;
+  height: 100vh;
+  display: $flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-sizing: border-box;
+} 
+.App-background::before{
+  content:'';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center center;
+  background-image:url(../assets/fondo-burger-queen.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(35%);
+} 
+.App-background-inside{
+  position: relative;
+}
+.App-logo{
+  width: 100%;
+}
+.comp-kitchen{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.buttonNone{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.ButtonInit{
+  background-color: $backgroundYellow;
+  width: 180px;
+  height: 70px;
+  border-radius: 25px;
+  font-family: $roboto;
+  font-size: 30px;
+}
+.container-button{
+  width: 300px;
+  height: 280px;
+  border-radius: 60px;
+  border: 7px solid #FFFFFF;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 100px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0%;
+}
+.flexRow{
+  display: $flex;
+  flex-direction: row;
+}
+/*# sourceMappingURL=app.css.map */

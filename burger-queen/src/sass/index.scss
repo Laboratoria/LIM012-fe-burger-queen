@@ -1,0 +1,20 @@
+@import "variables";
+@import "App";
+@import "waiter-choice";
+@import "folder";
+@import "container-all-food";
+@import "kitchen";
+@import 'orderkitchen';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  font-family: $roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
