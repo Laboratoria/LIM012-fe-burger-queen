@@ -16,7 +16,7 @@ import {
   MenuView,
   DrinksView,
 } from './FoodByType';
-import Clock from './clock';
+import Clock from './Clock';
 
 const DoOrders = () => {
   const [breakfastData, setBreakfatsData] = useState([]);
